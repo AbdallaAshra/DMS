@@ -28,7 +28,7 @@ public class HomeActivity extends AppCompatActivity  {
          medicinereminder=findViewById(R.id.medicianReminder);
          check=findViewById(R.id.check);
 
-         /*------------- Make an set OnClickListener ----------------*/
+         /*------------- Make an setOnClickListener ----------------*/
         artical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
