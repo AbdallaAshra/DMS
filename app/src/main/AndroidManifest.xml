@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dms">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DMS">
+        <activity
+            android:name=".profile.ProfileAcitvity"
+            android:exported="false" />
+        <activity
+            android:name=".Medical_Reminder.Medicien_Reminder_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Meal_Suggestion.Suggest_meal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckActivity.CheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Article.ArticalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
