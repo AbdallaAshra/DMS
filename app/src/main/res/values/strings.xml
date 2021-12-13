@@ -4,4 +4,6 @@
     <string name="breakfast_meal">Breakfast Meal</string>
     <string name="dinner_meal">Dinner Meal</string>
     <string name="lunch_meal">Lunch Meal</string>
+    <string name="articles">Articles</string>
+    <string name="search">Search...</string>
 </resources>
