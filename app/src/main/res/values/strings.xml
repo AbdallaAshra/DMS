@@ -6,4 +6,6 @@
     <string name="lunch_meal">Lunch Meal</string>
     <string name="articles">Articles</string>
     <string name="search">Search...</string>
+    <string name="meal_s_name">Meal’s Name</string>
+    <string name="article_title">Article Title</string>
 </resources>
