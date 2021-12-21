@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Meal_pg"
+    tools:context=".Meal_Suggestion.Meal_pg"
     android:orientation="vertical">
 
     <!--toolbar with related layout file @drawable/cornier_radius-->
