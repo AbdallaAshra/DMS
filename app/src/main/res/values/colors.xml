@@ -6,7 +6,17 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="blue_lite1">#ade7f5</color>
+    <color name="blue_lite2">#23c4e4</color>
+    <color name="blue_dark1">#11567c</color>
+    <color name="blue_dark2">#1ea0bd</color>
+    <color name="blue_dark3">#168098</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orangeappColor">#FF9800</color>
+
+
+
+
     <color name="asky">#11CFC5</color>
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#000</color>

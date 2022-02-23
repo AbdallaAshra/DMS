@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-        android:background="@color/orangeappColor"
+        android:background="#fcde67"
 
     tools:context=".HomeActivity.HomeActivity">
 
@@ -31,7 +31,7 @@
                 android:id="@+id/meal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-               android:background="@color/lightappColor"
+                android:background="#5af"
                 android:elevation="9dp"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -73,7 +73,7 @@
                 android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/lightappColor"
+                android:background="#378CA3"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -125,12 +125,11 @@
             app:cardCornerRadius="40dp">
 
             <LinearLayout
-                 android:id="@+id/artical"
+                android:background="#52ab98"
+                android:id="@+id/artical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:background="@color/lightappColor"
-
                 android:orientation="vertical">
 
                 <ImageView
@@ -167,12 +166,11 @@
             app:cardCornerRadius="40dp">
 
             <LinearLayout
-                 android:id="@+id/check"
+                android:background="#5bccf6"
+                android:id="@+id/check"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:background="@color/lightappColor"
-
                 android:orientation="vertical">
 
                 <ImageView
@@ -220,13 +218,12 @@
             app:cardCornerRadius="40dp">
 
             <LinearLayout
-                 android:id="@+id/medicianReminder"
+                android:background="#fec475"
+                android:id="@+id/medicianReminder"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:elevation="90dp"
-                android:background="@color/lightappColor"
-
                 android:orientation="vertical">
 
                 <ImageView
