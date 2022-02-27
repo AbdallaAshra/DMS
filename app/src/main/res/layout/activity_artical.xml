@@ -11,15 +11,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/orangeappColor"
+        android:background="#5af"
         android:orientation="horizontal"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/articles"
-             android:textColor="@color/darkappColor"
-
             android:textSize="40sp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"/>
