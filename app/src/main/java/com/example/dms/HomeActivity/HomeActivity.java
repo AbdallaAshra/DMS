@@ -1,5 +1,6 @@
 package com.example.dms.HomeActivity;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -21,6 +22,8 @@ public class HomeActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.hide();
         /*----------- take an  objcet form the liner layout ----------*/
          artical=findViewById(R.id.artical);
          profile=findViewById(R.id.profile);
@@ -32,7 +35,8 @@ public class HomeActivity extends AppCompatActivity  {
         artical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(HomeActivity.this, ArticalActivity.class);
+                 Intent i=new Intent(HomeActivity.this, ArticalActivity.class);
+
                 startActivity(i);
             }
         });

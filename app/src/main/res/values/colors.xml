@@ -13,7 +13,11 @@
     <color name="colorAccent">#11CFC5</color>
     <color name="themeColor">#9C27B0</color>
     <color name="red">#CC0909</color>
-
+    <color name="blue_lite1">#ade7f5</color>
+    <color name="blue_lite2">#23c4e4</color>
+    <color name="blue_dark1">#11567c</color>
+    <color name="blue_dark2">#1ea0bd</color>
+    <color name="blue_dark3">#168098</color>
     <!--normal colors-->
     <color name="darkTextColor">#000000</color>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-        android:background="@color/orangeappColor"
+        android:background="@color/white"
 
     tools:context=".HomeActivity.HomeActivity">
 
@@ -31,7 +31,7 @@
                 android:id="@+id/meal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-               android:background="@color/lightappColor"
+               android:background="@color/blue_lite1"
                 android:elevation="9dp"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -39,7 +39,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/ic_launcher_foreground"
+                    android:background="@drawable/ic_vitamins_meal_svgrepo_com"
                     android:padding="10dp"
                     android:src="@drawable/ic_launcher_foreground" />
 
@@ -73,7 +73,7 @@
                 android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/lightappColor"
+                android:background="@color/blue_lite1"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -83,7 +83,7 @@
                     android:layout_height="126dp"
                     android:background="@drawable/ic_launcher_foreground"
                     android:padding="10dp"
-                    android:src="@drawable/ic_avatar" />
+                    android:src="@drawable/ic_user_profile_svgrepo_com" />
 
                 <View
                     android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:background="@color/lightappColor"
+                android:background="@color/blue_lite1"
 
                 android:orientation="vertical">
 
@@ -137,9 +137,8 @@
 
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/ic_launcher_foreground"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_launcher_foreground" />
+                     android:padding="10dp"
+                    android:src="@drawable/ic_artical" />
 
                 <View
                     android:layout_width="match_parent"
@@ -171,14 +170,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:background="@color/lightappColor"
+                android:background="@color/blue_lite1"
 
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/abc_vector_test"
+                    android:background="@drawable/ic_blood_diabetes_diabetic_laboratory_sugar_test_svgrepo_com"
                     android:padding="10dp"
                     android:src="@drawable/ic_launcher_foreground" />
 
@@ -225,7 +224,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:elevation="90dp"
-                android:background="@color/lightappColor"
+                android:background="@color/blue_lite1"
 
                 android:orientation="vertical">
 
@@ -233,7 +232,7 @@
                     android:layout_width="150dp"
                     android:layout_height="104dp"
                      android:padding="10dp"
-                    android:src="@drawable/ic_reminder" />
+                    android:src="@drawable/ic_clock_svgrepo_com" />
 
                 <View
                     android:layout_width="match_parent"

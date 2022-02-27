@@ -3,24 +3,51 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/drawable/corner_radius.xml" value="0.21614583333333334" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/drawable/ic_avatar.xml" value="0.21614583333333334" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/drawable/search_bar.xml" value="0.21614583333333334" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_artical.xml" value="0.18" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_article_pg.xml" value="0.2" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_meal_pg.xml" value="0.2" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_medicien_reminder.xml" value="0.2" />
+        <entry key="..\:/DMS_graduation-project-/app/src/main/res/layout/activity_suggest_meal.xml" value="0.22" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable-v24/ic_add_img.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable-v24/ic_design.xml" value="0.24" />
         <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10648148148148148" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/button_background_blue.xml" value="0.1" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/corner_radius.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_add_img.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_back_img.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_clock_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_doctor_svgrepo_com.xml" value="0.1" />
         <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_facebook.xml" value="0.1" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_google_plus.xml" value="0.1" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_artical.xml" value="0.38399998828125037" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_article_pg.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_check.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_forgot_password.xml" value="0.27807486631016043" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_home.xml" value="0.14285714285714285" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_login.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_main.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_meal_pg.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_medicien_reminder.xml" value="0.12590579710144928" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_porfile_acitvity.xml" value="0.12590579710144928" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_registration.xml" value="0.12590579710144928" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_suggest_meal.xml" value="0.11372847011144883" />
-        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/user_list.xml" value="0.12590579710144928" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_login_hero.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_register_hero.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_reminder.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_search.xml" value="0.24" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_side_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_smartwatch_drug_notice_alert_healthcare_healthy_reminder_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_user_profile_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/ic_vitamins_meal_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/drawable/search_bar.xml" value="0.24" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_artical.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_article_pg.xml" value="0.1" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_check.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_forget_passward.xml" value="0.16895999484375016" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_forget_password.xml" value="0.10751999671875011" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_home.xml" value="0.19199999414062519" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_log_in.xml" value="0.12287999625000012" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_log_up.xml" value="0.1347517730496454" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_login.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_logup.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_main.xml" value="0.15359999531250015" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_meal_pg.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_medicien_reminder.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_porfile_acitvity.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_register.xml" value="0.12287999625000012" />
+        <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/layout/activity_suggest_meal.xml" value="0.12287999625000012" />
         <entry key="..\:/Users/ABDO/AndroidStudioProjects/DMS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10648148148148148" />
       </map>
     </option>
