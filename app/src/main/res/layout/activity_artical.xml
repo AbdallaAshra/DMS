@@ -11,37 +11,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/orangeappColor"
+        android:background="@color/blue_dark3"
         android:orientation="horizontal"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/articles"
-             android:textColor="@color/darkappColor"
+             android:textColor="@color/white"
 
             android:textSize="40sp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"/>
     </LinearLayout>
 
-    <!---searchbar &related file (search_bar.xml&ic_search.xml)-->
-    <LinearLayout
-        android:id="@+id/search_bar"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="9dp"
-            android:background="@drawable/search_bar"
-            android:drawableStart="@drawable/ic_search"
-            android:hint="@string/search"
-            android:paddingStart="10dp"
-            android:paddingRight="10dp"/>
-    </LinearLayout>
 
     <!--scrollView + card views-->
     <ScrollView
@@ -55,61 +39,61 @@
             <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
             app:cardCornerRadius="20dp"
             android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                app:cardBackgroundColor="#B395EA"
+                android:background="@color/blue_dark3"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"/>
 

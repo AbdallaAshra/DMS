@@ -2,257 +2,737 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainehome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
-        android:background="@color/white"
 
     tools:context=".HomeActivity.HomeActivity">
 
-
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:elevation="100dp"
-        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue_dark3"
 
-        android:orientation="horizontal">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="9dp"
-            app:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_dark3">
 
-            <LinearLayout
-                android:id="@+id/meal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-               android:background="@color/blue_lite1"
-                android:elevation="9dp"
+            <TextView
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
                 android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/ic_vitamins_meal_svgrepo_com"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_launcher_foreground" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="10dp"
-                    android:background="@color/cardview_dark_background" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Meal "
-
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="60dp"
-            app:cardCornerRadius="40dp">
-
-            <LinearLayout
-                android:id="@+id/profile"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/blue_lite1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:layout_width="145dp"
-                    android:layout_height="126dp"
-                    android:background="@drawable/ic_launcher_foreground"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_user_profile_svgrepo_com" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="10dp"
-                    android:background="@color/cardview_dark_background" />
-
-                <TextView
-                    android:layout_width="69dp"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="10dp"
-                    android:text="Profile "
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                android:text="Diabetes \nManagement \nSystem"
+                android:textColor="@color/white" />
 
 
-            </LinearLayout>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/blue_dark3"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/doctorquot" />
 
-        </androidx.cardview.widget.CardView>
+        </RelativeLayout>
 
+    </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:paddingTop="10dp"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="259dp"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_gravity="center"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-            android:layout_margin="10dp"
-            android:elevation="60dp"
-            app:cardCornerRadius="40dp">
 
-            <LinearLayout
-                 android:id="@+id/artical"
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <!--predict-diabetes-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:elevation="60dp"
+                            app:cardCornerRadius="40dp">
+
+                            <LinearLayout
+                                android:id="@+id/cluster"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/blue_lite1"
+                                android:gravity="center"
+
+                                android:orientation="vertical">
+
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentRight="true"
+                                    android:background="@color/blue_lite1"
+                                    app:lottie_autoPlay="true"
+                                    app:lottie_loop="true"
+                                    app:lottie_rawRes="@raw/predict" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_margin="10dp"
+                                    android:background="@color/cardview_dark_background" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Clutring"
+                                    android:textSize="30dp"
+
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <!--clustering -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:elevation="60dp"
+                            app:cardCornerRadius="40dp">
+
+                            <LinearLayout
+                                android:id="@+id/check"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/blue_lite1"
+                                android:gravity="center"
+
+                                android:orientation="vertical">
+
+
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentRight="true"
+                                    android:background="@color/blue_lite1"
+                                    app:lottie_autoPlay="true"
+                                    app:lottie_loop="true"
+                                    app:lottie_rawRes="@raw/diapetes_predict" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_margin="10dp"
+                                    android:background="@color/cardview_dark_background" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="predict-diabetes"
+
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="@color/blue_dark3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--articals -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+
+                        android:layout_margin="10dp"
+                        android:elevation="60dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/artical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/reading" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Reading"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <!--medicine Reminder -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="60dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/medicianReminder"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:elevation="90dp"
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/clock" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Medicien Reminder"
+                                android:textSize="15dp"
+
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <!--meals-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="9dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/meal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/meals" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Meal "
+
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--training-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="60dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/training"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:elevation="90dp"
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/exercise" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Training"
+                                android:textSize="15dp"
+
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <!--profile-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="60dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/profile" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="69dp"
+                                android:layout_height="33dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Profile "
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!--about application-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="60dp"
+                        app:cardCornerRadius="40dp">
+
+                        <LinearLayout
+                            android:id="@+id/about"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/blue_lite1"
+                            android:elevation="90dp"
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/blue_lite1"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/about" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/cardview_dark_background" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="10dp"
+                                android:text="About Application"
+                                android:textSize="15dp"
+
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:clipToPadding="false"
+         android:elevation="100dp"
+         android:gravity="center"
+
+         android:orientation="horizontal">
+
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="160dp"
+             android:layout_height="190dp"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"
+             android:elevation="9dp"
+             app:cardCornerRadius="40dp">
+
+             <LinearLayout
+                 android:id="@+id/meal"
+                 android:layout_width="match_parent"
+                  android:layout_height="match_parent"
                 android:background="@color/blue_lite1"
+                 android:gravity="center"
+                 android:orientation="vertical">
 
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                 <ImageView
+                     android:layout_width="64dp"
+                     android:layout_height="64dp"
+                     android:background="@drawable/ic_vitamins_meal_svgrepo_com"
                      android:padding="10dp"
-                    android:src="@drawable/ic_artical" />
+                     android:src="@drawable/ic_launcher_foreground" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="10dp"
-                    android:background="@color/cardview_dark_background" />
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_margin="10dp"
+                     android:background="@color/cardview_dark_background" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Artical"
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="Meal "
 
-                    android:textStyle="bold" />
-            </LinearLayout>
+                     android:textStyle="bold" />
 
-        </androidx.cardview.widget.CardView>
+             </LinearLayout>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="60dp"
-            app:cardCornerRadius="40dp">
-
-            <LinearLayout
-                 android:id="@+id/check"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@color/blue_lite1"
-
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/ic_blood_diabetes_diabetic_laboratory_sugar_test_svgrepo_com"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_launcher_foreground" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="10dp"
-                    android:background="@color/cardview_dark_background" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Check"
-
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+         </androidx.cardview.widget.CardView>
 
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="235dp"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
+     </LinearLayout>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
+     <LinearLayout
+         android:paddingTop="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="259dp"
+         android:clipToPadding="false"
+         android:gravity="center"
+         android:orientation="horizontal">
 
-            android:layout_height="190dp"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="60dp"
-            app:cardCornerRadius="40dp">
+         <androidx.cardview.widget.CardView
+             android:layout_width="160dp"
+             android:layout_height="190dp"
+             android:layout_gravity="center"
 
-            <LinearLayout
-                 android:id="@+id/medicianReminder"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:elevation="90dp"
-                android:background="@color/blue_lite1"
+             android:layout_margin="10dp"
+             android:elevation="60dp"
+             app:cardCornerRadius="40dp">
 
-                android:orientation="vertical">
+             <LinearLayout
+                  android:id="@+id/artical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:gravity="center"
+                 android:background="@color/blue_lite1"
 
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="104dp"
+                 android:orientation="vertical">
+
+                 <ImageView
+
+                     android:layout_width="64dp"
+                     android:layout_height="64dp"
+                      android:padding="10dp"
+                     android:src="@drawable/ic_artical" />
+
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_margin="10dp"
+                     android:background="@color/cardview_dark_background" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="Artical"
+
+                     android:textStyle="bold" />
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="160dp"
+             android:layout_height="190dp"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"
+             android:elevation="60dp"
+             app:cardCornerRadius="40dp">
+
+             <LinearLayout
+                  android:id="@+id/check"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:gravity="center"
+                 android:background="@color/blue_lite1"
+
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="64dp"
+                     android:layout_height="64dp"
+                     android:src="@drawable/ic_blood_diabetes_diabetic_laboratory_sugar_test_svgrepo_com"
                      android:padding="10dp"
-                    android:src="@drawable/ic_clock_svgrepo_com" />
+                       />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="10dp"
-                    android:background="@color/cardview_dark_background" />
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_margin="10dp"
+                     android:background="@color/cardview_dark_background" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="35dp"
-                    android:layout_marginTop="10dp"
-                    android:text="Medicien Reminder"
-                    android:textSize="15dp"
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="Check"
 
-                    android:textStyle="bold" />
+                     android:textStyle="bold" />
 
-            </LinearLayout>
+             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+         </androidx.cardview.widget.CardView>
 
 
-    </LinearLayout>
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="235dp"
+         android:clipToPadding="false"
+         android:gravity="center"
+         android:orientation="horizontal">
+         <androidx.cardview.widget.CardView
+             android:layout_width="160dp"
+             android:layout_height="190dp"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"
+             android:elevation="60dp"
+             app:cardCornerRadius="40dp">
+
+             <LinearLayout
+                 android:id="@+id/profile"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/blue_lite1"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+
+                     android:layout_width="145dp"
+                     android:layout_height="126dp"
+                     android:background="@drawable/ic_launcher_foreground"
+                     android:padding="10dp"
+                     android:src="@drawable/ic_user_profile_svgrepo_com" />
+
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_margin="10dp"
+                     android:background="@color/cardview_dark_background" />
+
+                 <TextView
+                     android:layout_width="69dp"
+                     android:layout_height="33dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Profile "
+                     android:textSize="20dp"
+                     android:textStyle="bold" />
+
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="160dp"
+
+             android:layout_height="190dp"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"
+             android:elevation="60dp"
+             app:cardCornerRadius="40dp">
+
+             <LinearLayout
+                  android:id="@+id/medicianReminder"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:gravity="center"
+                 android:elevation="90dp"
+                 android:background="@color/blue_lite1"
+
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="150dp"
+                     android:layout_height="104dp"
+                      android:padding="10dp"
+                     android:src="@drawable/ic_clock_svgrepo_com" />
+
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_margin="10dp"
+                     android:background="@color/cardview_dark_background" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="35dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Medicien Reminder"
+                     android:textSize="15dp"
+
+                     android:textStyle="bold" />
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+
+     </LinearLayout>-->
 </LinearLayout>

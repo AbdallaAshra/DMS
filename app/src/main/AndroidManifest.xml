@@ -10,13 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight" >
         <activity
+            android:name=".AboutApplication.AboutApplication"
+            android:exported="false" />
+        <activity
+            android:name=".PredictDiabetes.Clustring"
+            android:exported="false" />
+        <activity
+            android:name=".Training.Training"
+            android:exported="false" />
+        <activity
+            android:name=".Spalsh_Activity.slider_activity"
+            android:exported="false" />
+        <activity
             android:name=".Login.Forget_passward"
             android:exported="false" />
+        <activity
+            android:name=".Login.log_in"
+            android:exported="true" />
         <activity
             android:name=".Login.Log_up"
             android:exported="false" />
         <activity
-            android:name=".Login.log_in"
+            android:name=".Spalsh_Activity.splashScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +55,7 @@
             android:name=".Meal_Suggestion.Suggest_meal_Activity"
             android:exported="false" />
         <activity
-            android:name=".CheckActivity.CheckActivity"
+            android:name=".PredictDiabetes.PredictDiabetes"
             android:exported="false" />
         <activity
             android:name=".Article.ArticalActivity"

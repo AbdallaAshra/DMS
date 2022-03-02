@@ -1,4 +1,4 @@
-package com.example.dms.CheckActivity;
+package com.example.dms.PredictDiabetes;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.dms.R;
 
-public class CheckActivity extends AppCompatActivity {
+public class PredictDiabetes extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -8,15 +8,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.dms.AboutApplication.AboutApplication;
 import com.example.dms.Article.ArticalActivity;
-import com.example.dms.CheckActivity.CheckActivity;
+import com.example.dms.PredictDiabetes.Clustring;
+import com.example.dms.PredictDiabetes.PredictDiabetes;
 import com.example.dms.Meal_Suggestion.Suggest_meal_Activity;
 import com.example.dms.Medical_Reminder.Medicien_Reminder_Activity;
 import com.example.dms.R;
+import com.example.dms.Training.Training;
 import com.example.dms.profile.ProfileAcitvity;
 
 public class HomeActivity extends AppCompatActivity  {
-    LinearLayout artical ,profile, meal,medicinereminder,check;
+    LinearLayout artical ,profile, meal,medicinereminder,check,training,cluster,about;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,32 @@ public class HomeActivity extends AppCompatActivity  {
          meal=findViewById(R.id.meal);
          medicinereminder=findViewById(R.id.medicianReminder);
          check=findViewById(R.id.check);
+         training=findViewById(R.id.training);
+         cluster=findViewById(R.id.cluster);
+         about=findViewById(R.id.about);
+         about.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent i=new Intent(HomeActivity.this, AboutApplication.class);
+                 startActivity(i);
+
+             }
+         });
+         cluster.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent i=new Intent(HomeActivity.this, Clustring.class);
+                 startActivity(i);
+
+             }
+         });
+         training.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent i=new Intent(HomeActivity.this, Training.class);
+                 startActivity(i);
+             }
+         });
 /*parcode */
          /*------------- Make an setOnClickListener ----------------*/
         artical.setOnClickListener(new View.OnClickListener() {
@@ -63,13 +92,15 @@ public class HomeActivity extends AppCompatActivity  {
         check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(HomeActivity.this, CheckActivity.class);
+                Intent i=new Intent(HomeActivity.this, PredictDiabetes.class);
             startActivity(i);
             }
         });
 
 
     }
+
+
 
 
 }
