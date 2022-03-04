@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PredictDiabetes.PredictDiabetes">
+    android:orientation="vertical"
+    tools:context=".PredictDiabetes.Clustring">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -21,10 +20,8 @@
             android:layout_height="250dp"
             android:background="@color/blue_dark3"
             app:lottie_autoPlay="true"
-            android:textColor="@color/black"
-
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/predict1" />
+            app:lottie_rawRes="@raw/clutring" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,63 +60,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-
                     android:orientation="vertical">
 
                     <com.google.android.material.textfield.TextInputEditText
                         style="@style/modifiedEditText"
                         android:layout_margin="7dp"
-                        android:hint="Pregnancies"
-                        android:inputType="text"
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="Glucose"
-                        android:textColor="@color/black"
-
-                        android:inputType="text"
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="Blood Pressure"
-                        android:inputType="text"
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="Skin Thickness"
-                        android:inputType="text"
-                        android:textColor="@color/black"
-
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="Insulin"
-                        android:inputType="text"
-                        android:textColor="@color/black"
-
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="BMI"
-                        android:inputType="text"
-                        android:textColor="@color/black"
-
-                        android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        style="@style/modifiedEditText"
-                        android:layout_margin="7dp"
-                        android:hint="Diabetes Pedigree Function"
+                        android:hint="Gender"
+                         android:textColor="@color/black"
                         android:inputType="text"
                         android:maxLines="1" />
 
@@ -127,9 +74,83 @@
                         style="@style/modifiedEditText"
                         android:layout_margin="7dp"
                         android:hint="Age"
+                        android:textColor="@color/black"
+
                         android:inputType="text"
                         android:maxLines="1" />
 
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="Urea"
+                        android:textColor="@color/black"
+
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="Cr"
+                        android:textColor="@color/black"
+
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="HbA1c"
+                        android:textColor="@color/black"
+
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="Chol"
+                        android:textColor="@color/black"
+
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="TG"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="HDL"
+                        android:textColor="@color/black"
+
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="LDL"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="VLDL"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/modifiedEditText"
+                        android:layout_margin="7dp"
+                        android:hint="BMI"
+                        android:inputType="text"
+                        android:maxLines="1" />
 
 
                 </LinearLayout>
@@ -146,9 +167,17 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="10dp"
-        android:onClick="sendtoBredict"
+        android:onClick="sendtoculstring"
         android:textColor="@color/white"
-        android:background="@color/blue_dark3"
+         android:background="@color/blue_dark3"
         android:text="send" />
 
+
+    <!--   </androidx.cardview.widget.CardView>
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/editTextEmail"
+           style="@style/modifiedEditText"
+           android:hint="@string/login_email_hint"
+           android:inputType="textEmailAddress"
+           android:maxLines="1" />-->
 </LinearLayout>

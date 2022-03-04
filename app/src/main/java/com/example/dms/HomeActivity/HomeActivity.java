@@ -41,6 +41,8 @@ public class HomeActivity extends AppCompatActivity  {
              public void onClick(View view) {
                  Intent i=new Intent(HomeActivity.this, AboutApplication.class);
                  startActivity(i);
+                 overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
 
              }
          });
@@ -49,6 +51,8 @@ public class HomeActivity extends AppCompatActivity  {
              public void onClick(View view) {
                  Intent i=new Intent(HomeActivity.this, Clustring.class);
                  startActivity(i);
+                 overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
 
              }
          });
@@ -57,6 +61,8 @@ public class HomeActivity extends AppCompatActivity  {
              public void onClick(View view) {
                  Intent i=new Intent(HomeActivity.this, Training.class);
                  startActivity(i);
+                 overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
              }
          });
 /*parcode */
@@ -67,19 +73,25 @@ public class HomeActivity extends AppCompatActivity  {
                  Intent i=new Intent(HomeActivity.this, ArticalActivity.class);
 
                 startActivity(i);
+                overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
             }
         });
         meal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i=new Intent(HomeActivity.this, Suggest_meal_Activity.class);
-                startActivity(i);            }
+                startActivity(i);
+                overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+            }
         });
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     Intent i=new Intent(HomeActivity.this, ProfileAcitvity.class);
                     startActivity(i);
+                overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
             }
         });
         medicinereminder.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +99,8 @@ public class HomeActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 Intent i = new Intent(HomeActivity.this, Medicien_Reminder_Activity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
             }
         });
         check.setOnClickListener(new View.OnClickListener() {
@@ -94,6 +108,8 @@ public class HomeActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 Intent i=new Intent(HomeActivity.this, PredictDiabetes.class);
             startActivity(i);
+                overridePendingTransition(R.anim.zoomin,R.anim.goinsplash);
+
             }
         });
 
